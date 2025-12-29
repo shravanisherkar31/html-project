@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6e9ef;
+}
+
+header {
+  background: #194d90;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.banner {
+  background: black;
+  color: yellow;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  width: 85%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+table th, table td {
+  border: 1px solid #c5c5c5;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+table th {
+  background: #e4e9ed;
+}
+
+.row {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 5%;
+}
+
+.column {
+  width: 45%;
+}
+
+form label {
+  display: block;
+  margin: 8px 0 2px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.btns {
+  margin-top: 15px;
+}
+
+.submit, .reset {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.submit {
+  background: #006d71;
+}
+
+.reset {
+  background: #094c9b;
+  margin-left: 10px;
+}
+
+.column img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+footer a { color: skyblue; }
